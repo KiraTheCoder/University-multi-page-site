@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/graduate.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25af09484c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html"> HOME </a> </li>
+                    <li> <a href="AboutUs.html"> ABOUT </a> </li>
+                    <li> <a href="OurCourses.html"> COURSE </a> </li>
+                    <li> <a href="blogPage.html"> BLOG </a> </li>
+                    <li> <a href="contactUs.html"> CONTACT </a> </li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our certicate & Online Programs For 2023</h1>
+    </section>
+    <!-- Blog page content -->
+
+    <section class="blog-content">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="">
+            <h2>Our certicate & Online Programs For 2023</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vitae maiores non! Ducimus laudantium
+                commodi sapiente mollitia aliquam corporis fuga vero in, iusto, magni quis reprehenderit! Fuga eum cum
+                nobis.
+            </p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, distinctio amet, dolorem eum eveniet
+                culpa ullam vitae laudantium similique et saepe ex non adipisci corporis excepturi mollitia qui quasi
+                aut quibusdam quidem provident? Optio, laborum ipsum harum laudantium dolor eligendi nulla! Obcaecati
+                illo vitae esse. Tenetur odio assumenda perspiciatis sit hic voluptatem nobis cumque debitis iste optio
+                itaque aspernatur, saepe velit! Maiores sed voluptates unde quis delectus! Repellendus, est quod.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere impedit fuga, sint, aperiam veniam nihil
+                aut perferendis doloremque dolorem blanditiis laudantium? Quia eveniet laborum vitae cumque officia ea
+                sapiente repudiandae quaerat quis laudantium, in architecto porro esse repellat. Doloribus sit provident
+                illum quis amet ab molestias maiores dicta! Fuga sapiente quo ducimus illum expedita nobis quia.
+                Exercitationem molestias quo ex.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, sunt. Saepe adipisci eius magnam
+                repellendus officiis harum itaque rerum sapiente? Nostrum iusto deleniti vel doloribus unde blanditiis
+                modi facere. Atque ratione dolorum error, quo ipsum quae veniam perspiciatis quis facilis. Id error
+                laboriosam earum beatae accusantium sunt optio, aperiam ut.</p>
+        </div>
+
+
+
+        <div class="blog-right">
+            <h3>Post categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Java Full Stack</span>
+                <span>28</span>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="blog-content-bottom">
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="" class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn ">POST COMMENT</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolore! Officia sed accusantium ut similique
+            laborum! Voluptate quas quasi alias <br> laboriosam doloribus veniam hic nesciunt, aperiam dignissimos
+            voluptatibus odit non.</p>
+        <div class="icon">
+            <!-- Add font awesome icons -->
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Kiran Kumar</p>
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>
